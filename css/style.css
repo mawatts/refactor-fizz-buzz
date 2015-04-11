@@ -1,0 +1,48 @@
+.masthead {
+	background-image: url("../images/fizzbuzz.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 175px 0;
+}
+
+/* Buttons */
+.btns, .txtArea {
+	margin: 20px auto;
+	width: 650px;
+	text-align: center;
+}
+
+button {
+	background: #FF9100;
+	color: #fff;
+	font-size: 24px;
+	box-shadow: 0 6px #B46600;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	width: 250px;
+	height: 75px;
+}
+
+/* Button Actions */
+.btnAction {
+	border-radius: 0 0 5px 5px;
+}
+
+.btnAction:hover {
+	box-shadow: 0 4px #B46600;
+	top: 2px;
+}
+
+.btnAction:active {
+	box-shadow: 0 0 #B46600;
+	top: 6px;
+}
+
+textarea {
+	font-size: 24px;
+	font-family: 'Special Elite', cursive;
+	margin: 0 auto;
+	width: 100%;
+	height: 200px;
+}
