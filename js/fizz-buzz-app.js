@@ -3,8 +3,6 @@ $(document).ready(function() {
 	reloadFizzBuzz();
 });
 
-var inputValue = "";
-
 function numberPrompt() {
 	swal({
 	   title: "Number Input",
@@ -37,7 +35,6 @@ function numberPrompt() {
 }
 	
 function startFizzBuzz() {
-			inputValue = +document.querySelector('input').value;
 			for (var i = 0; i <= inputValue; i++) {
 				if (i % 3 == 0 && i % 5 == 0) {
 					x = "Fizz Buzz";
