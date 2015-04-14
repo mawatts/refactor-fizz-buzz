@@ -61,8 +61,6 @@ function startFizzBuzz() {
 
 function reloadFizzBuzz() {
 	$('.reloadButton').click(function() {
-    	i = 0;
-    	x = 0;
     	document.getElementById("results").innerHTML = "";
     	window.location.reload();
 	});
